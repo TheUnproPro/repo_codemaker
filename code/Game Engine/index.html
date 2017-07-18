@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>No File Selected.</title>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <script src="scripts/engine/engine.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="tabList">
+        <div id="padh">
+          <ul>
+            <li class="used">Settings</li>
+            <li>Scripts</li>
+            <li>Params</li>
+            <li>Export</li>
+          </ul>
+        </div>
+      </div>
+      <div id="settings">
+        <div id="pad">
+          <b>
+          <h2>Settings</h2>
+          <hr>
+          <div style="float: left; width: 48%;">
+            Plugin Name:<br>
+            <input id="pName"></input><br>
+            Plugin Description:<br>
+            <input id="pDesc"></input><br>
+            Plugin License:<br>
+            <textarea id="pLicense" rows="10"></textarea><br>
+            Plugin Credits:<br>
+            <textarea id="pCredits" rows="16"></textarea>
+          </div>
+
+          <div style="float: right; width: 48%; margin-left:">
+            Plugin Author:<br>
+            <input id="pAuthor"></input><br>
+            Plugin Notes:<br>
+            <input id="pNotes"></input><br>
+            Plugin Help:
+            <textarea id="pHelp" rows=28></textarea>
+          </div>
+          </b>
+      </div>
+    </div>
+</body>
+</html>
